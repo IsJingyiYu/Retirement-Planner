@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "今日开始点",
+  "usingComponents": {
+    "anchor-card": "/components/anchor-card/index"
+  }
+}

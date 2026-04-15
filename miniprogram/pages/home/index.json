@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "今天",
+  "usingComponents": {
+    "anchor-card": "/components/anchor-card/index",
+    "recommendation-card": "/components/recommendation-card/index"
+  }
+}

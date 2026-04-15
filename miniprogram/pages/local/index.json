@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "附近推荐",
+  "usingComponents": {
+    "recommendation-card": "/components/recommendation-card/index"
+  }
+}

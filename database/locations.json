@@ -1,0 +1,34 @@
+[
+  {
+    "id": "sh-park-01",
+    "city": "上海",
+    "type": "park",
+    "title": "口袋公园散步",
+    "description": "适合20分钟内完成的轻量活动。",
+    "distance": "1.2 km"
+  },
+  {
+    "id": "sh-museum-01",
+    "city": "上海",
+    "type": "exhibition",
+    "title": "社区文化展厅",
+    "description": "适合慢慢逛，不需要长时间停留。",
+    "distance": "2.4 km"
+  },
+  {
+    "id": "hz-community-01",
+    "city": "杭州",
+    "type": "community",
+    "title": "社区兴趣活动中心",
+    "description": "可以看看有没有讲座、手工或合唱活动。",
+    "distance": "1.8 km"
+  },
+  {
+    "id": "generic-park-01",
+    "city": "通用",
+    "type": "park",
+    "title": "附近步行友好路线",
+    "description": "适合轻松出门，不需要太多准备。",
+    "distance": "1.0 km"
+  }
+]

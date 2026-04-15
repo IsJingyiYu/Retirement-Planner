@@ -1,0 +1,18 @@
+.success-card {
+  margin-top: 24rpx;
+  padding: 28rpx;
+  background: #eef6ea;
+}
+
+.success-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #285b33;
+}
+
+.success-desc {
+  margin: 14rpx 0 24rpx;
+  font-size: 28rpx;
+  line-height: 1.6;
+  color: #43624a;
+}

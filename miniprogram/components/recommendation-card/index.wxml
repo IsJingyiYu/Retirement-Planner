@@ -1,0 +1,9 @@
+<view class="card recommendation-card" bindtap="handleTap">
+  <view class="rec-head">
+    <view class="rec-title">{{item.title}}</view>
+    <view class="rec-distance">{{item.distance}}</view>
+  </view>
+  <view class="rec-type">{{item.type}}</view>
+  <view class="rec-desc">{{item.description}}</view>
+  <view class="rec-reason">{{item.reason}}</view>
+</view>

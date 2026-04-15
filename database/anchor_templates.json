@@ -1,0 +1,26 @@
+[
+  {
+    "id": "walk-downstairs",
+    "category": "movement",
+    "title": "下楼走20分钟",
+    "description": "先活动一下身体，让今天有个轻松开头。"
+  },
+  {
+    "id": "message-friend",
+    "category": "social",
+    "title": "给一个朋友发消息",
+    "description": "不需要太正式，简单问候也很好。"
+  },
+  {
+    "id": "learn-small",
+    "category": "learning",
+    "title": "学一个小东西",
+    "description": "看10分钟内容，给今天一点新鲜感。"
+  },
+  {
+    "id": "visit-park",
+    "category": "exploration",
+    "title": "去附近公园坐一会儿",
+    "description": "让自己离开家门，换一个空间开始今天。"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/onboarding/index",
+    "pages/survey/index",
+    "pages/home/index",
+    "pages/today/index",
+    "pages/local/index",
+    "pages/profile/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "退休生活启动器",
+    "navigationBarBackgroundColor": "#f7f2e8",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5efe4",
+    "backgroundTextStyle": "dark"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

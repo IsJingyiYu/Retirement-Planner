@@ -1,0 +1,16 @@
+<view class="page onboarding-page">
+  <view class="hero card">
+    <view class="eyebrow">Retirement Planner</view>
+    <view class="title">每天的生活启动器</view>
+    <view class="subtitle">
+      我们不帮你规划整个人生，只帮你找到今天可以从哪里开始。
+    </view>
+    <view class="feature-list">
+      <view class="feature-item">一个今日开始点</view>
+      <view class="feature-item">少量本地轻推荐</view>
+      <view class="feature-item">可选的明日提醒</view>
+    </view>
+    <button class="primary-button" bindtap="handleStart">开始设置</button>
+    <button class="secondary-button demo-button" bindtap="handleDemo">直接体验主要功能</button>
+  </view>
+</view>

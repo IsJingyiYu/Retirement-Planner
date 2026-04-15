@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sample-user-1",
+    "city": "上海",
+    "interests": ["walking", "culture"],
+    "activityPreferences": ["nearby", "outdoor"],
+    "socialTendency": "balanced"
+  },
+  {
+    "id": "sample-user-2",
+    "city": "杭州",
+    "interests": ["learning", "community"],
+    "activityPreferences": ["indoor", "quiet"],
+    "socialTendency": "low"
+  }
+]

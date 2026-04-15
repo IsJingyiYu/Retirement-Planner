@@ -1,0 +1,32 @@
+.profile-card,
+.reminder-card {
+  padding: 28rpx;
+  margin: 28rpx 0;
+}
+
+.info-row + .info-row {
+  margin-top: 18rpx;
+}
+
+.info-label {
+  font-size: 24rpx;
+  color: #7f6b55;
+}
+
+.info-value {
+  margin-top: 8rpx;
+  font-size: 30rpx;
+  color: #2f2419;
+}
+
+.reminder-title {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.reminder-desc {
+  margin: 14rpx 0 22rpx;
+  font-size: 28rpx;
+  color: #5d4d3f;
+  line-height: 1.6;
+}

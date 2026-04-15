@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="title">附近可以轻松开始的地方</view>
+  <view class="subtitle" wx:if="{{profile}}">
+    根据 {{profile.city}}、你的兴趣和今天的轻量节奏，为你准备了这些建议。
+  </view>
+
+  <view class="list">
+    <recommendation-card
+      wx:for="{{recommendations}}"
+      wx:key="id"
+      item="{{item}}"
+      bind:tapcard="handleCardTap"
+    />
+  </view>
+</view>

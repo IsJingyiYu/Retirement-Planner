@@ -1,0 +1,12 @@
+<view class="card anchor-card">
+  <view wx:if="{{anchor}}">
+    <view class="anchor-label">今天可以从这里开始</view>
+    <view class="anchor-title">{{anchor.title}}</view>
+    <view class="anchor-desc">{{anchor.description}}</view>
+    <view class="anchor-actions">
+      <button class="primary-button small" bindtap="handleComplete">我做了</button>
+      <button class="secondary-button small" bindtap="handleSwap">换一个</button>
+    </view>
+  </view>
+  <view wx:else class="anchor-empty">今天的开始点正在准备中</view>
+</view>

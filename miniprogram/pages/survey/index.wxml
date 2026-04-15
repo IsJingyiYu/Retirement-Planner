@@ -1,0 +1,51 @@
+<view class="page">
+  <view class="title">先认识你一下</view>
+  <view class="subtitle">只需要几项信息，我们就能给出更贴近你的开始点。</view>
+
+  <view class="card form-card">
+    <view class="field">
+      <view class="label">你现在在哪个城市？</view>
+      <input class="input" placeholder="例如：上海" bindinput="handleCityInput" value="{{city}}" />
+    </view>
+
+    <view class="field">
+      <view class="label">你比较感兴趣的是？</view>
+      <checkbox-group bindchange="handleInterestChange">
+        <label wx:for="{{interestsOptions}}" wx:key="value" class="option">
+          <checkbox value="{{item.value}}" checked="{{item.checked}}" />
+          <text>{{item.label}}</text>
+        </label>
+      </checkbox-group>
+    </view>
+
+    <view class="field">
+      <view class="label">你更偏好的活动方式是？</view>
+      <checkbox-group bindchange="handlePreferenceChange">
+        <label wx:for="{{preferenceOptions}}" wx:key="value" class="option">
+          <checkbox value="{{item.value}}" checked="{{item.checked}}" />
+          <text>{{item.label}}</text>
+        </label>
+      </checkbox-group>
+    </view>
+
+    <view class="field">
+      <view class="label">你的社交倾向更接近哪种？</view>
+      <radio-group bindchange="handleSocialChange">
+        <label class="option">
+          <radio value="low" checked="{{socialTendency === 'low'}}" />
+          <text>更喜欢独处</text>
+        </label>
+        <label class="option">
+          <radio value="balanced" checked="{{socialTendency === 'balanced'}}" />
+          <text>都可以</text>
+        </label>
+        <label class="option">
+          <radio value="high" checked="{{socialTendency === 'high'}}" />
+          <text>更喜欢互动</text>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+
+  <action-buttons primary-text="完成设置" bind:primarytap="handleSubmit" />
+</view>

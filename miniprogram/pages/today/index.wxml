@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="title">今天可以从这里开始</view>
+  <view class="subtitle">不用一次解决很多事，先完成一个可执行的小动作。</view>
+
+  <anchor-card
+    anchor="{{anchor}}"
+    bind:complete="handleComplete"
+    bind:swap="handleSwap"
+  />
+
+  <view wx:if="{{completed}}" class="card success-card">
+    <view class="success-title">今天已经被启动了</view>
+    <view class="success-desc">如果你愿意，可以打开提醒，让我们明天再轻轻提醒你一次。</view>
+    <button class="primary-button" bindtap="goToProfile">设置明日提醒</button>
+  </view>
+</view>

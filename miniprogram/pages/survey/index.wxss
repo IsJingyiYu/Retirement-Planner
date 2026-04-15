@@ -1,0 +1,34 @@
+.form-card {
+  margin: 28rpx 0 32rpx;
+  padding: 28rpx;
+}
+
+.field + .field {
+  margin-top: 28rpx;
+}
+
+.label {
+  margin-bottom: 16rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.input {
+  height: 84rpx;
+  padding: 0 24rpx;
+  border-radius: 20rpx;
+  background: #f8f2e8;
+  border: 2rpx solid #e5d4bb;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18rpx;
+  font-size: 28rpx;
+  color: #4b3a2b;
+}
+
+.option text {
+  margin-left: 12rpx;
+}

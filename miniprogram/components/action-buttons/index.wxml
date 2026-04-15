@@ -1,0 +1,4 @@
+<view class="button-row">
+  <button class="primary-button fill" bindtap="handlePrimary">{{primaryText}}</button>
+  <button wx:if="{{secondaryText}}" class="secondary-button fill" bindtap="handleSecondary">{{secondaryText}}</button>
+</view>

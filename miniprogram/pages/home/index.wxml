@@ -1,0 +1,46 @@
+<view class="page">
+  <view class="welcome">
+    <view class="title">今天先从一件小事开始</view>
+    <view class="subtitle" wx:if="{{profile}}">
+      {{profile.city}} 也许不需要很多计划，只需要一个可执行的起点。
+    </view>
+  </view>
+
+  <anchor-card
+    anchor="{{anchor}}"
+    bind:complete="handleAnchorComplete"
+    bind:swap="handleAnchorSwap"
+  />
+
+  <view class="entry-row">
+    <button class="ghost-button entry-button" bindtap="goToToday">查看今日开始点</button>
+    <button class="ghost-button entry-button" bindtap="goToLocal">看看附近推荐</button>
+  </view>
+
+  <view class="section">
+    <view class="section-title">功能入口</view>
+    <view class="menu-grid">
+      <button class="menu-card" bindtap="goToSurvey">
+        <view class="menu-title">问卷调查</view>
+        <view class="menu-desc">查看和修改兴趣、城市、活动偏好</view>
+      </button>
+      <button class="menu-card" bindtap="goToToday">
+        <view class="menu-title">今日开始点</view>
+        <view class="menu-desc">完成今天的小任务，或换一个开始点</view>
+      </button>
+      <button class="menu-card" bindtap="goToLocal">
+        <view class="menu-title">本地推荐</view>
+        <view class="menu-desc">看附近公园、展览和社区活动</view>
+      </button>
+      <button class="menu-card" bindtap="goToProfile">
+        <view class="menu-title">提醒设置</view>
+        <view class="menu-desc">打开或关闭明日提醒，查看个人信息</view>
+      </button>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">附近轻推荐</view>
+    <recommendation-card wx:for="{{recommendations}}" wx:key="id" item="{{item}}" />
+  </view>
+</view>
